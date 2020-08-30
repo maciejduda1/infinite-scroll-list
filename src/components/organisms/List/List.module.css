@@ -1,0 +1,16 @@
+.list {
+	width: 450px;
+	height: 135px;
+	overflow: auto;
+	list-style-type: none;
+	border: 2px solid #251f25;
+	background-color: #646c67;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+	.list {
+		max-width: 290px;
+	}
+}

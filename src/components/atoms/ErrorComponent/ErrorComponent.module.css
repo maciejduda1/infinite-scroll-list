@@ -1,0 +1,11 @@
+.wrapper {
+	min-width: 440px;
+	background-color: rgb(167, 49, 49);
+	padding: 15px;
+	line-height: 48px;
+	border: 2px solid red;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}

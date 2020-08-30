@@ -1,0 +1,19 @@
+.wrapper {
+	display: inline-flex;
+	align-items: center;
+	height: 48px;
+}
+.spinner-text {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 4;
+	height: 100%;
+	margin-right: 8px;
+}
+
+@media screen and (max-width: 500px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+}
