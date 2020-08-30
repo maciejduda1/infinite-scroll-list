@@ -16,9 +16,10 @@ import ListItem from '../../atoms/ListItem/ListItem';
 import styles from './List.module.css';
 import SpinnerLoader from '../../molecules/SpinnerLoader/SpinnerLoader';
 import ErrorComponent from '../../atoms/ErrorComponent/ErrorComponent';
+import { ThunkDispatch, AnyAction } from '@reduxjs/toolkit';
 
 interface ListProps {
-	dispatch: any;
+	dispatch: ThunkDispatch<DataState, void, AnyAction>;
 	page: number;
 	data: User[];
 	totalPages: number;
